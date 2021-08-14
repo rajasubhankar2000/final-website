@@ -3,12 +3,10 @@ body
     background-color: rgb(245, 238, 238);
 }
 
-
-
-
 a{
     text-decoration: none;
     color: rgba(85, 78, 78,0.7);
+    
 }
 .line{
     text-decoration:line-through;
@@ -112,6 +110,9 @@ img{
     #ddd{
         display: none;
     }
+    #btn{
+        visibility: visible;
+    }
 }
 @media only screen and (max-width: 1019px) and (min-width: 820px){
     #Left-box >h1{
@@ -187,7 +188,7 @@ img{
 @media only screen and (max-width: 600px) and (min-width: 400px){
     
     #middle-box > h1{
-        font-size: 30px;
+        font-size: 59px;
         float: left;
         width: 100%;
 
@@ -202,20 +203,54 @@ img{
         display: none;
     }
     #rightbox{
-        padding-top: 330px;   
+        padding-top: 465px;   
     } 
     #sum{
         display: none;
     }
     
     
-    #Left-box>h1,h2{
-        display: inline;
-        padding: 50px;
+    
+    #ddd >div{
+        width: 25px;
+        height: 3px;
+        background-color: lightgray;
+        margin: 5px;
+        
+
+    }
+    a{
+       
+        /* float: left; */
+        padding: 3px;
+        font-size: 18px;
+        display: none;
+    }
+    #btn{
+        display: flex;
+        visibility: hidden;
+        float: right;
     }
     
+    #ddd,#ipsum,#dd{
+        display: inline;
+        
+    }
     
-    
+    #ddd{
+        float: left;
+        padding-top:10px;
+        
+    }
+    #dd{
+        float: right;
+        padding-right: 50px;
+
+    }
+    #ipsum{
+        padding: 120px;    
+        
+    }
     
 }
 
